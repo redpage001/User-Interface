@@ -18,7 +18,6 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -49,7 +48,7 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html, body {
@@ -64,3 +63,100 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+nav {
+	display: inline-block;
+	width: 98%;
+	margin: 1%;
+}
+.Toolbar {
+	display: inline;
+	vertical-align: middle;
+	width: 96%;
+	margin: 0 2%;
+}
+.Toolbar a {
+	display: inline-block;
+	width: 5%;
+	margin-right: 8%;
+}
+.logo {
+	display: inline-block;
+	width: 5%;
+	margin: 2%;
+}
+.Top {
+	width: 98%;
+	margin: 0 1%;
+}
+.TopBox {
+	display: inline-block;
+	vertical-align: middle;
+	width: 40%;
+	margin: 0 4%;
+}
+h1 {
+	font-size: 80px;
+	text-align: center;
+}
+#GetStarted {
+	border: solid gray 2px;
+	padding-left: 60px;
+	padding-right: 60px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	width: 20%;
+	margin: 0 30%;
+}
+
+#CodeSnippet {
+	width: 80%;
+	margin: 0 10%;
+}
+
+section {
+	width: 98%;
+	margin: 0 1%;
+}
+
+.BigTop {
+	width: 96%;
+	margin: 2%;
+	margin-top: 4%;
+	border-top: solid gray 2px;
+}
+
+.TopThird {
+	display: inline-block;
+	width: 48%;
+	margin: 2% 0;
+	margin-right: 1%;
+}
+.middle-img {
+	width: 96%;
+	margin: 0 2%;
+}
+.BigBottom {
+	width: 96%;
+	margin: 2%;
+	margin-bottom: 4%;
+	border-bottom: solid gray 2px;
+}
+
+.BottomThird {
+	display: inline-block;
+	Width: 29%;
+	margin: 2% 0;
+	margin-right: 4%;
+}
+
+.Contact {
+	width: 96%;
+	margin: 50px 2%;
+}
+#ConctactInfo p {
+	line-height: 1.9;
+}
+.Copyright {
+	text-align: center;
+	margin-bottom: 100px;
+}
